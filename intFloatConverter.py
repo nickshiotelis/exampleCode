@@ -5,10 +5,7 @@ def intFloatConverter(data, type):
         if data > roundCheck:
             # Rounding up
             output = output + 1
-            return output
-        else:
-            # Rounding down
-            return output
+        return output
 
     elif type == 'float':
         output = float(data)
